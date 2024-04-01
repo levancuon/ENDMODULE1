@@ -24,7 +24,7 @@
      */
 
     function insertNumberToArray(arr, num, index) {
-        if(index > index[arr.length]) {
+        if(index < 0 || index > arr.length) {
             return arr;
         }
 

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Câu 1</title>
+</head>
+<body>
+<script>
+    let ds_thi = [5, 5, 4, 6, 2];
+
+    function findAvg(arr) {
+        let sum = 0;
+        let avg;
+        for (let i = 0; i < arr.length; i++) {
+            sum += arr[i]
+        }
+        avg = sum / arr.length
+        return avg;
+    }
+    console.log(findAvg(ds_thi))
+</script>
+</body>
+</html>
